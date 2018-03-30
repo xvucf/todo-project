@@ -10,34 +10,21 @@ body{
     margin-top:5%;
     box-shadow: 1px 1px 11px 1px green;
 }
-.completed{
-    color:gray;
-    text-decoration: line-through;
-}
-ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-li{
-    
-    box-sizing: border-box;
-    height: 60px;
-    line-height: 60px;
-    margin: 0;
-    font-size:18px;
-    
-}
-li:nth-child(2n){
-    background-color: aquamarine;
-}
 h1{
     background-color: greenyellow;
     padding: 10px;
     text-transform: uppercase;
     margin: 0;
 }
+
+.completed{
+    color:gray;
+    text-decoration: line-through;
+}
+.fa-plus{
+    float: right;
+    cursor: pointer;
+    }
 input{
     width: 100%;
     padding: 4% 10%;
@@ -47,6 +34,11 @@ input{
     border: black;
     outline: none;
     
+}
+input:focus{
+    background-color: dimgray;
+    border: green;
+    color:white;
 }
 span{
     background-color: white;
@@ -61,26 +53,27 @@ span{
     margin-right: 20px;
     
 }
-
+.far{
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    
+    box-sizing: border-box;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    font-size:18px;
+    
+}
+li:nth-child(2n){
+    background-color: aquamarine;
+}
 li:hover span{
     width:60px;
-    opacity:1;
-    
-    
+    opacity:1;   
 }
-
-input:focus{
-    background-color: dimgray;
-    border: green;
-    padding: 4% 10%;
-    font-size: 20px;
-    outline: none;
-    box-sizing: border-box;
-    color:white;
-}
-.fa-plus{
-    float: right;
-    cursor: pointer;
-    }
-
-
